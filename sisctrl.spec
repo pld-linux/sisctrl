@@ -1,4 +1,4 @@
-# $Revision: 1.6 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.7 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
@@ -24,7 +24,7 @@ runtime on a SiS 300, 315 or 330 series based machine/card.
 
 %description -l pl
 sisctrl jest narzêdziem pozwalaj±cym zmieniaæ lub ustawiaæ niektóre
-parametry sterownika dla kart SiS 300, 314 lub 330 w czasie pracy
+parametry sterownika dla kart SiS 300, 315 lub 330 w czasie pracy
 systemu.
 
 %prep
