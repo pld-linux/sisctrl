@@ -1,9 +1,9 @@
-# $Revision: 1.7 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.8 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
 Version:	0.0.20040306
-Release:	0.3
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
