@@ -1,13 +1,13 @@
-# $Revision: 1.9 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.10 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
-Version:	0.0.20040306
-Release:	1
-License:	GPL
+Version:	0.0.20041231
+Release:	0.1
+License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
-# Source0-md5:	c9e51050ad0d8411d47b892de0b95a4e
+# Source0-md5:	03333329492b966d9b54ec58b1f97525
 URL:		http://www.winischhofer.net/linuxsisvga.shtml
 BuildRequires:	XFree86-devel
 BuildRequires:	automake
@@ -43,7 +43,7 @@ install -d $RPM_BUILD_ROOT{%{_desktopdir},%{_pixmapsdir}}
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
-install icons/64x64/sisctrl.png $RPM_BUILD_ROOT%{_pixmapsdir}
+install icons/48x48/sisctrl.png $RPM_BUILD_ROOT%{_pixmapsdir}
 install extra/sisctrl.desktop $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
