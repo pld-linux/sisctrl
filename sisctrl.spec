@@ -1,4 +1,4 @@
-# $Revision: 1.8 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.9 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
@@ -11,7 +11,7 @@ Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
 URL:		http://www.winischhofer.net/linuxsisvga.shtml
 BuildRequires:	XFree86-devel
 BuildRequires:	automake
-BuildRequires:	gtk+2-devel >= 2.0.0
+BuildRequires:	gtk+2-devel >= 1:2.0.0
 BuildRequires:	pkgconfig
 # some randr BR should be here to allow this feature
 # in case of xlibs: libXrandr, libXv, libXxf86vm
