@@ -1,4 +1,4 @@
-# $Revision: 1.2 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.3 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Name:		sisctrl
 Version:	0.0.20040306
@@ -8,6 +8,7 @@ Group:		X11/Applications
 Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
 # Source0-md5:	c9e51050ad0d8411d47b892de0b95a4e
 URL:		http://www.winischhofer.net/linuxsisvga.shtml
+BuildRequires:	automake
 BuildRequires:	XFree86-devel
 BuildRequires:	gtk+2-devel
 BuildRequires:	pkgconfig
@@ -22,6 +23,7 @@ runtime on a SiS 300, 315 or 330 series based machine/card.
 %setup -q
 
 %build
+cp /usr/share/automake/config.sub .
 %configure
 %{__make}
 
