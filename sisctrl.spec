@@ -1,19 +1,21 @@
-# $Revision: 1.5 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.6 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
 Version:	0.0.20040306
-Release:	0.2
+Release:	0.3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
 # Source0-md5:	c9e51050ad0d8411d47b892de0b95a4e
 URL:		http://www.winischhofer.net/linuxsisvga.shtml
-BuildRequires:	automake
 BuildRequires:	XFree86-devel
-BuildRequires:	gtk+2-devel
+BuildRequires:	automake
+BuildRequires:	gtk+2-devel >= 2.0.0
 BuildRequires:	pkgconfig
 # some randr BR should be here to allow this feature
+# in case of xlibs: libXrandr, libXv, libXxf86vm
+# TODO: Xrandr is broken in XFree86, needs extra -lXrender -lX11 (or check fails)
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -30,7 +32,8 @@ systemu.
 
 %build
 cp /usr/share/automake/config.sub .
-%configure
+%configure \
+	--with-xv-path=/usr/X11R6/%{_lib}
 %{__make}
 
 %install
