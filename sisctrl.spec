@@ -1,13 +1,13 @@
-# $Revision: 1.10 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.11 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
-Version:	0.0.20041231
+Version:	0.0.20051202
 Release:	0.1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
-# Source0-md5:	03333329492b966d9b54ec58b1f97525
+# Source0-md5:	d9db755fe9fd40809b5c30d1ab286d62
 URL:		http://www.winischhofer.net/linuxsisvga.shtml
 BuildRequires:	XFree86-devel
 BuildRequires:	automake
