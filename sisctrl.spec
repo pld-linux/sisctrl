@@ -1,4 +1,4 @@
-# $Revision: 1.11 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.12 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
 Summary(pl):	sisctrl - narzêdzie dla kart SiS
 Name:		sisctrl
@@ -53,6 +53,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
-%attr(644,root,root) %{_desktopdir}/*.desktop
-%attr(644,root,root) %{_pixmapsdir}/*.png
+%{_desktopdir}/*.desktop
+%{_pixmapsdir}/*.png
 %{_mandir}/man1/*.1*
