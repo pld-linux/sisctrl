@@ -1,6 +1,6 @@
-# $Revision: 1.13 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.14 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
-Summary(pl.UTF-8):   sisctrl - narzędzie dla kart SiS
+Summary(pl.UTF-8):	sisctrl - narzędzie dla kart SiS
 Name:		sisctrl
 Version:	0.0.20051202
 Release:	0.1
