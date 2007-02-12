@@ -1,6 +1,6 @@
-# $Revision: 1.12 $, $Date: 2003/08/06 16:03:01
+# $Revision: 1.13 $, $Date: 2003/08/06 16:03:01
 Summary:	sisctrl - tool for SiS cards
-Summary(pl):	sisctrl - narzêdzie dla kart SiS
+Summary(pl.UTF-8):   sisctrl - narzÄ™dzie dla kart SiS
 Name:		sisctrl
 Version:	0.0.20051202
 Release:	0.1
@@ -22,8 +22,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 sisctrl is a tool for setting/changing some driver parameters during
 runtime on a SiS 300, 315 or 330 series based machine/card.
 
-%description -l pl
-sisctrl jest narzêdziem pozwalaj±cym zmieniaæ lub ustawiaæ niektóre
+%description -l pl.UTF-8
+sisctrl jest narzÄ™dziem pozwalajÄ…cym zmieniaÄ‡ lub ustawiaÄ‡ niektÃ³re
 parametry sterownika dla kart SiS 300, 315 lub 330 w czasie pracy
 systemu.
 
