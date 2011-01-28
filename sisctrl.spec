@@ -10,8 +10,8 @@ Source0:	http://www.winischhofer.net/sis/%{name}-%{version}.tar.gz
 URL:		http://www.winischhofer.net/linuxsisvga.shtml
 BuildRequires:	automake
 BuildRequires:	gtk+2-devel >= 1:2.0.0
-BuildRequires:	ice-devel
 BuildRequires:	pkgconfig
+BuildRequires:	xorg-lib-libICE-devel
 BuildRequires:	xorg-lib-libXv-devel
 BuildRequires:	xorg-lib-libXxf86vm-devel
 # some randr BR should be here to allow this feature
